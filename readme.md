@@ -36,11 +36,11 @@ module.exports = {
 ### Instalar la libreria
 usando npm:
 ```sh
-npm install -S @improvingLaborCourts/geocodehub
+npm install -S https://github.com/ImprovingLaborCourts/geocodeHub
 ```
 usando yarn
 ```sh
-npm add -S @improvingLaborCourts/geocodehub
+npm add -S https://github.com/ImprovingLaborCourts/geocodeHub
 ```
 ## Uso
 1. Importar la liberia
@@ -63,11 +63,11 @@ let geoService = createGeocodeService(
    - codigo_postal
 ```js
 let coords = await geoService.geocode({
-   calle: 'plutarco elias calles',
-   numero: '11',
-   colonia: 'ampliacion independencia',
-   municipio: 'santa cruz xoxocotlan',
-   estado: 'oaxaca',
-   codigo_postal: '71230'
+   calle: 'Río Hondo',
+   numero: '1',
+   colonia: 'progreso tizapan',
+   municipio: 'alvaero obregon',
+   estado: 'ciudad de mexico',
+   codigo_postal: '01080'
 })
 ```
